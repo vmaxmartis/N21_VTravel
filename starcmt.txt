@@ -1,0 +1,12 @@
+                  <div class="stars_cmt">
+                         <input class="star_cmt star-5_cmt" id="star-5_cmt" type="radio"name="star_cmt"   value="5" <?php if($row_pro3['star']==5){echo 'checked="checked"';}?>/>
+                        <label class="star_cmt star-5_cmt" for="star-5_cmt"></label>
+                        <input class="star_cmt star-4_cmt" id="star-4_cmt" type="radio"name="star_cmt"  value="4" <?php if($row_pro3['star']==4){echo 'checked="checked"';}?>/>
+                       <label class="star_cmt star-4_cmt" for="star-4_cmt"></label>
+                        <input class="star_cmt star-3_cmt" id="star-3_cmt" type="radio" name="star_cmt" value="3" <?php if($row_pro3['star']==3){echo 'checked="checked"';}?>/>
+                        <label class="star_cmt star-3_cmt" for="star-3_cmt"></label>
+                        <input class="star_cmt star-2_cmt" id="star-2_cmt" type="radio" name="star_cmt" value="2" <?php if($row_pro3['star']==2){echo 'checked="checked"';}?> />
+                        <label class="star_cmt star-2_cmt" for="star-2_cmt"></label>
+                         <input class="star_cmt star-1_cmt" id="star-1_cmt" type="radio" name="star_cmt" value="1" <?php if($row_pro3['star']==1){echo 'checked="checked"';}?> />
+                          <label class="star_cmt star-1_cmt" for="star-1_cmt"></label>
+                 </div>
